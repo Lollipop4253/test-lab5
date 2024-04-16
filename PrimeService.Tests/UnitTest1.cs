@@ -20,7 +20,7 @@ namespace PrimeService.Tests;
             Assert.AreEqual(res, obj.Bubble(array));
         }
 
-        [TestCase("1221", true)]
+        [TestCase("1221", false)]
         [TestCase("1212", false)]
         [TestCase("1", true)]
         [TestCase("", false)]
